@@ -5,4 +5,11 @@ class Pokemon {
     type;
     types = [];
     photo;
+    //Status do Pokemon
+    attack;
+    hp;
+    defense;
+    specialAttack;
+    specialDefense;
+    speed;
 }

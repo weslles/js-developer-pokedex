@@ -22,3 +22,31 @@ body {
         border-radius: 1rem;
     }
 }
+
+/* Estilize o popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .popup-content {
+    background: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 25%;
+  }
+
+  .popup .stats{
+    text-transform: capitalize;
+  }
+  
+  .close {
+    float: right;
+    cursor: pointer;
+  }
